@@ -1,6 +1,7 @@
 import contacts from '../data/contacts.json';
 import '../styles/App.scss';
 import { useState } from 'react';
+import ls from '../services/localStorage.js';
 
 function App() {
 
@@ -13,7 +14,7 @@ function App() {
     "speciality": "",
 
   });
-  const [search, setSearch] = useState('');
+  const [search, setSearch] = useState(ls.get('search', ''));
 
 
 
@@ -38,6 +39,7 @@ function App() {
     });
 
   const handleSearch = (ev) => {
+    ls.set('search', ev.target.value);
     setSearch(ev.target.value);
   };
 
@@ -74,7 +76,7 @@ function App() {
             autoComplete="off"
             type="search"
             name="search"
-            placeholder="Filtrar contactos por nombre"
+            placeholder="Filtrar contactos por nombre, tutora o especialidad"
             onInput={handleSearch}
             value={search}
           />
