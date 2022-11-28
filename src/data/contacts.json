@@ -1,0 +1,73 @@
+[
+    {
+        "id": "16420102983093087",
+        "name": "Alejandra",
+        "counselor": "Dayana",
+        "promo": "R",
+        "speciality": "Bulma CSS",
+        "social_networks": [
+            {
+                "name": "GitHub",
+                "url": "https://github.com/alejandra"
+            }
+        ],
+        "teams": [
+            {
+                "module": "Módulo 1",
+                "name": "Awesome women",
+                "scrum_master": false
+            },
+            {
+                "module": "Módulo 2",
+                "name": "Alohomora Cards",
+                "scrum_master": false
+            }
+        ]
+    },
+    {
+        "id": "16420102983322160",
+        "name": "Alicia",
+        "counselor": "Dayana",
+        "promo": "R",
+        "speciality": "ThreeJS",
+        "social_networks": [
+            {
+                "name": "GitHub",
+                "url": "https://github.com/alicia"
+            },
+            {
+                "name": "LinkedIn",
+                "url": "https://www.linkedin.com/in/alicia/"
+            }
+        ],
+        "teams": [
+            {
+                "module": "Módulo 2",
+                "name": "Awesome Women",
+                "scrum_master": true
+            }
+        ]
+    },
+    {
+        "id": "16420102983663774",
+        "name": "Ana B.",
+        "counselor": "Iván",
+        "promo": "R",
+        "speciality": "Bulma CSS",
+        "social_networks": [
+            {
+                "name": "GitHub",
+                "url": "https://github.com/anab"
+            }
+        ],
+        "teams": [
+            {
+                "module": "Módulo 2",
+                "name": "Las minion",
+                "scrum_master": false
+            }
+        ]
+        }
+]
+
+    
